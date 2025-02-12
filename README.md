@@ -97,16 +97,15 @@ http://<your-server-ip>
 ![Output 1](image/output1.png)  
 ![Output 2](image/output2.png)
 
-### 4️⃣ Data Stored in Database
-![Database Storage](image/output3.png)
-
 To interact with the MySQL database running in the Docker container, you can execute:
 ```sh
 docker exec -it mysql_db mysql -u root -p
 ```
 Enter the MySQL root password (pass123) and interact with the user_data database.
-
 ---
+
+### 4️⃣ Data Stored in Database
+![Database Storage](image/output3.png)
 
 ### 🔧 How to Commit and Push Changes:
 ```sh
