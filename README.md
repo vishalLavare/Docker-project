@@ -107,9 +107,3 @@ Enter the MySQL root password (pass123) and interact with the user_data database
 ### 4️⃣ Data Stored in Database
 ![Database Storage](image/output3.png)
 
-### 🔧 How to Commit and Push Changes:
-```sh
-git add image/ README.md
-git commit -m "Updated README.md with project screenshots"
-git push origin main
-```
