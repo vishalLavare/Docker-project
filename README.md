@@ -60,6 +60,8 @@ cd three-tier
 Run the following command to build and start the application containers:
 docker-compose up -d
 
+bash```
+
 Directory Structure
 
 three-tier/
@@ -78,7 +80,9 @@ three-tier/
 
 
 Check the status of the containers:
+```bash
 docker-compose ps 
+bash```
 
 Once the containers are up, open your browser and navigate to:
 http://<your-server-ip>
