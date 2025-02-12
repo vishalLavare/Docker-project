@@ -83,6 +83,22 @@ docker-compose ps
 Once the containers are up, open your browser and navigate to:
 http://<your-server-ip>
 
+# Project Screenshots
+
+### 1.  Tree
+![Index Page](./image/tree.png)
+
+### 2. container start
+![NPM Start](./image/contaierrunning.png)
+
+### 3. Output Screenshot
+![Output](./image/output1.png)
+![Output](./image/output2.png)
+
+### 4. Data stored in databases
+![Package](./image/output3.png) 
+
+
 To interact with the MySQL database running in the Docker container, you can execute:
 docker exec -it mysql_db mysql -u root -p
 Enter the MySQL root password (pass123) and interact with the user_data database.

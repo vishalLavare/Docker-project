@@ -4,9 +4,9 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 // Database connection details
-$host = "mysql_db"; // Change to your database host if needed
+$host = "database-1.cfgmgogoqgkw.us-east-1.rds.amazonaws.com"; // Change to your database host if needed
 $username = "root";  // Your database username
-$password = "pass123";      // Your database password
+$password = "password123";      // Your database password
 $dbname = "user_data"; // Name of the database
 
 // Connect to the database
