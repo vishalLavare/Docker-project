@@ -82,21 +82,21 @@ docker-compose ps
 
 Once the containers are up, open your browser and navigate to:
 http://<your-server-ip>
+ 
+## 📸 Project Screenshots
 
-# Project Screenshots
+### 1️⃣ Project Directory Structure
+![Project Structure](image/tree.png)
 
-### 1.  Tree
-![Index Page](./image/tree.png)
+### 2️⃣ Docker Containers Running
+![Containers Running](image/contaierrunning.png)
 
-### 2. container start
-![NPM Start](./image/contaierrunning.png)
+### 3️⃣ Application Output
+![Output 1](image/output1.png)  
+![Output 2](image/output2.png)
 
-### 3. Output Screenshot
-![Output](./image/output1.png)
-![Output](./image/output2.png)
-
-### 4. Data stored in databases
-![Package](./image/output3.png) 
+### 4️⃣ Data Stored in Database
+![Database Storage](image/output3.png)
 
 
 To interact with the MySQL database running in the Docker container, you can execute:
