@@ -59,11 +59,10 @@ cd three-tier
 
 Run the following command to build and start the application containers:
 docker-compose up -d
+```
 
-bash```
-
-Directory Structure
-
+### Directory Structure
+```
 three-tier/
 ├── docker-compose.yml         # Docker Compose configuration file
 ├── html/
@@ -77,33 +76,41 @@ three-tier/
 │   └── index.php              # Backend PHP script
 └── initdb/
     └── init.sql               # Database initialization script
-
+```
 
 Check the status of the containers:
-```bash
+```sh
 docker-compose ps 
-bash```
-
+```
 Once the containers are up, open your browser and navigate to:
 http://<your-server-ip>
- 
+
 ## 📸 Project Screenshots
 
 ### 1️⃣ Project Directory Structure
-![Project Structure](./image/tree.png)
-![Index Page](./image/tree.png)
+![Project Structure](image/tree.png)
 
 ### 2️⃣ Docker Containers Running
-![Containers Running](./image/contaierrunning.png)
+![Containers Running](image/contaierrunning.png)
 
 ### 3️⃣ Application Output
-![Output 1](./image/output1.png)  
-![Output 2](./image/output2.png)
+![Output 1](image/output1.png)  
+![Output 2](image/output2.png)
 
 ### 4️⃣ Data Stored in Database
-![Database Storage](./image/output3.png)
+![Database Storage](image/output3.png)
 
 To interact with the MySQL database running in the Docker container, you can execute:
+```sh
 docker exec -it mysql_db mysql -u root -p
+```
 Enter the MySQL root password (pass123) and interact with the user_data database.
 
+---
+
+### 🔧 How to Commit and Push Changes:
+```sh
+git add image/ README.md
+git commit -m "Updated README.md with project screenshots"
+git push origin main
+```
