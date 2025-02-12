@@ -87,6 +87,7 @@ http://<your-server-ip>
 
 ### 1️⃣ Project Directory Structure
 ![Project Structure](./image/tree.png)
+![Index Page](./image/tree.png)
 
 ### 2️⃣ Docker Containers Running
 ![Containers Running](./image/contaierrunning.png)
