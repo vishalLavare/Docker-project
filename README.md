@@ -86,18 +86,17 @@ http://<your-server-ip>
 ## 📸 Project Screenshots
 
 ### 1️⃣ Project Directory Structure
-![Project Structure](image/tree.png)
+![Project Structure](./image/tree.png)
 
 ### 2️⃣ Docker Containers Running
-![Containers Running](image/contaierrunning.png)
+![Containers Running](./image/contaierrunning.png)
 
 ### 3️⃣ Application Output
-![Output 1](image/output1.png)  
-![Output 2](image/output2.png)
+![Output 1](./image/output1.png)  
+![Output 2](./image/output2.png)
 
 ### 4️⃣ Data Stored in Database
-![Database Storage](image/output3.png)
-
+![Database Storage](./image/output3.png)
 
 To interact with the MySQL database running in the Docker container, you can execute:
 docker exec -it mysql_db mysql -u root -p
